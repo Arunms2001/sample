@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solarM5</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <style>
+        
+*{
+margin:0 ;
+padding: 0;
+box-sizing: border-box;
+}
+body
+{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav h1{
+    margin-top: 8px;
+}
+.loca-adder{
+    display: flex;
+    gap: 35px;
+}
+.address, .call{
+    display: flex;
+    gap: 15px;
+}
+ i{
+    padding: 15px;
+    background: #ffe461;
+    border-radius: 50%;
+}
+nav .pages{
+    gap: 40px;
+    display: flex;
+}
+.pages a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+nav button{
+    padding: 7px;
+    background: black;
+    color: #ffe461;
+    font-weight: 600;
+    border: solid 2px black;
+    cursor: pointer;
+    padding-inline: 25px;
+    transition: 0.3s;
+}
+nav button:hover{
+   background:#ffe461 ;
+   color: #000;
+   border: solid 2px #ffe461;
+}
+.container-img img {
+    /* The image used */
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    filter: brightness(30%);
+  }
+  .container-img{
+    position: relative;
+
+  color: white;
+  }
+  .container-img .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    text-align: center;
+}
+.about-page{
+    display: flex;
+    padding-top: 40px;
+}
+.about-page .text, .about-img{
+    width: 50%;
+    text-align: center;
+}
+.about-page .text{
+    margin-top: 20px;
+    padding-inline: 156px;
+
+}
+.about-page .text h1{
+    color: #dbba18;
+}
+.about-page .text p{
+    font-size: medium;
+    padding: 12px;
+}
+.about-page .text h6{
+    padding: 10px;
+}
+.about-page .text button{
+    padding: 8px;
+    padding-inline: 20px;
+    background: #ffdc30;
+    color: #fff;
+    border: solid 2px #ffdc30;
+    font-weight: 600;
+    margin: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.about-page .text button:hover{
+    background: #fff;
+    color: #ffdc30;
+}
+.about-page .text h6{
+    font-size: medium;
+    color: #a5954b;
+}
+.about-img img{
+    width: 662px;
+    height: 358px;
+    object-fit: cover;
+    padding: 25px;
+    transition: 0.5s;
+}
+.about-img img:hover{
+    scale: 0.9;
+}
+.our-project{
+    background: #cf7c001f;
+    padding-top: 22px;
+
+}
+.our-project h3{
+    margin-left: 25px;
+    color: #edcf3f;
+}
+.proj-img{
+    display: flex;
+}
+.proj-img img{
+    width: 532px;
+    height: 321px;
+    object-fit: cover;
+    padding: 25px;
+    transition: 0.3s;
+}
+.proj-img img:hover{
+    scale: 0.9;
+}
+.proj-img{
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+
+    <nav>
+        <h1>SolarM5</h1>
+        <div class="loca-adder"> 
+            <div class="call">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h5>Call Us</h5>
+                    <p>+91 850823045</p>
+                </div>
+            </div>
+            <div class="address">
+                <i class="fa-solid fa-house"></i>
+                <div>
+                    <p><strong>16 Ridge Joy Lame</strong></p>
+                    <p>Dayton, OH 09421</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <nav>
+        <div class="pages">
+            <a href="">About us</a>
+            <a href="">Services</a>
+            <a href="">Blog</a>
+            <a href="">Contacts</a>
+        </div>
+        <div>
+            <button>GET A QUOTE</button>
+        </div>
+    </nav>
+</header>
+<div class="container-img">
+         
+    <img src="img/r-architecture-wDDfbanbhl8-unsplash.jpg" alt="">
+    <div class="text">
+        <p>Remodeling Company</p>
+        <h1>Building Your Quality</h1>
+        <h1>of Comfortable Life</h1>
+     </div>
+</div>
+<div class="about-page">
+  <div class="text">
+    <h1>REMODELING</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dignissimos? Ea vel sunt reprehenderit quaerat, eveniet sequi commodi harum excepturi.</p>
+     <h6>Patrica C . Alcon</h6> 
+     <button>READ MORE</button>
+</div>
+<div class="about-img">
+    <img src="img/roberto-nickson-tleCJiDOri0-unsplash.jpg" alt="">
+</div>
+</div>
+<div class="our-project">
+    <h3>OUR PROJECTS</h3>
+    <div class="proj-img">
+        <img src="img/roberto-nickson-emqnSQwQQDo-unsplash.jpg" alt="">
+        <img src="img/spacejoy-YI2YkyaREHk-unsplash.jpg" alt="">
+        <img src="img/roberto-nickson-rEJxpBskj3Q-unsplash.jpg" alt="">
+    </div>
+</div>
+</body>
+</html>
